@@ -1,0 +1,31 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+.text-muted {
+	color: #bcbbbb;
+}
+.text-thin {
+	font-weight: 100;
+}
+.title-super {
+	font-size: 60px;
+}
+.title-logo {
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+}
+.hero {
+	width: 1200px;
+	height: 400px;
+}
+.featured-img {
+	width: 360px;
+	height: 340px;
+}
+.modal-img {
+	width: 280px;
+	height: 260px;
+}

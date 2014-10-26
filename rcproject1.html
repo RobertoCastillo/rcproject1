@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>RC Project 1</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row"><!-- header row -->
+				<div class="col-md-4">
+					<img class="title-logo" src="images/castillo-logo.png" alt="Castillo Logo" />
+				</div>
+				<div class="col-md-8 text-right text-uppercase">
+					<h1 class="title-super text-thin">Roberto Castillo</h1>
+					<h4>Front-end Student</h4>
+				</div>
+			</div>
+			<div class="row"><!-- horizontal row -->
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row"><!-- hero img row -->
+				<div class="col-md-12">
+					<img class="img-responsive hero" src="images/1stFamilyBWv2.jpg" alt="Castillo Family"/>
+				</div>
+			</div>
+			<div class="row"><!-- section title row -->
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center"><!-- img row -->
+				<div class="col-md-4">
+					<img class="img-responsive featured-img" src="images/fatherandsoncolorv2.png" alt="Father and Son" data-toggle="modal" data-target="#father" />
+					<h3 class="text-uppercase text-center">Roberto & Omar</h3>
+					<p>https://www.att.com/bizcommunity</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive featured-img" src="images/omarcolor.jpg" alt="My Son" data-toggle="modal" data-target="#son" />
+					<h3 class="text-uppercase text-center">Omar</h3>
+					<p>https://www.att.com/bizcommunity</p>
+				</div>
+				<div class="col-md-4">
+					<img class="img-responsive featured-img" src="images/motherandsoncolorv2.png" alt="Mother and Son" data-toggle="modal" data-target="#mother" />
+					<h3 class="text-uppercase text-center">Natalie & Omar</h3>
+					<p>https://www.att.com/bizcommunity</p>
+				</div>
+			</div>
+		</div>	
+	
+	<!-- Community Modal -->
+<div class="modal fade" id="father" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Father and Son</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive modal-img" src="images/batmanandrobin.jpg" alt="Batman and Robin">
+        There isn't a Batman without a Robin.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<!-- 2nd Modal -->
+<div class="modal" id="son" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">My Son</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive modal-img" src="images/omarhoodiev2.png" alt="Omar with hoodie">
+        Omar wearing his favorite hoodie jacket.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<!-- 3rd Modal -->
+<div class="modal fade" id="mother" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Mother and Son</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive modal-img" src="images/motherandsonpainting.png" alt="Mother and Son Painting">
+        Natalie helping Omar paint his first pumpkin for Halloween.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</body>
+</html>
